@@ -1,0 +1,36 @@
+name: findme
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.17.3 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.5
+  get: ^4.6.5
+  google_fonts: ^3.0.1
+  camera: ^0.9.8+1
+  path_provider: ^2.0.11
+  path: ^1.8.1
+  flutter_launcher_icons: 0.9.3
+  get_storage: 2.0.3
+  shared_preferences: 2.0.15
+  expandable: 5.0.1
+  google_ml_vision: 0.0.7
+  platform: 3.1.0
+  tflite_flutter: 0.9.0
+  flutter_native_splash: 2.2.4
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^2.0.1
+  lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  assets: 
+    - assets/
+  uses-material-design: true
+
